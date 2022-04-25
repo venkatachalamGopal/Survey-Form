@@ -1,0 +1,168 @@
+Survey Form Task :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    
+    <style>
+        .rating{
+            color: orange;
+        }
+        .txt{
+            position: relative;
+            right: 25px;
+        }
+        .imp{
+            color: red;
+        }
+        .container{
+            margin: 10px auto;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h3><u>Survey Form:</u></h3>
+        <form action="">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label for="Name">Name<sup><i class="fa-solid fa-star fa-xs imp"></i></sup> </label>
+                        <input class="form-control" type="text" id="Name">
+                        <small>First</small>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="form-group">
+                        <label for="text"></label>
+                        <input class="form-control" type="text" name="" id="">
+                        <small>Last</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="email">Email <sup><i class="fa-solid fa-star fa-xs imp"></i></sup> </label>
+                    <input class="form-control" type="text" name="" id="">
+                </div>
+            </div> 
+        </form>
+        <br>
+            <label for="">Your Experience <sup><i class="fa-solid fa-star fa-xs imp"></i></sup> </label> <br>
+            <i class="fa-solid fa-star rating"></i>
+            <i class="fa-solid fa-star rating"></i>
+            <i class="fa-solid fa-star rating"></i>
+            <i class="fa-solid fa-star rating"></i>
+            <i class="fa-solid fa-star rating"></i> <br>
+            <small>Overall,how would you rate you experience with us?</small> <br> <br>
+
+            <div class="col-sm">
+                <label>How statisfied are you with <sup><i class="fa-solid fa-star fa-xs imp"></i></sup></label>
+            <table class="table table-condensed table-responsive table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="txt">Very Unstatisfied</th>
+                        <th class="txt">Unstatisfied</th>
+                        <th class="txt">Neutral</th>
+                        <th class="txt">Statisfied</th>
+                        <th class="txt">Very statisfied</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Purchase</td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Service</td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        
+                    </tr>
+                    
+                    <tr>
+                        <td>Company overall</td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <br>
+
+            <div class="col-sm">
+                <label for="">How Likely are you to <sup><i class="fa-solid fa-star fa-xs imp"></i></sup></label>
+            <table class="table table-condensed table-responsive table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="txt">Very unlikely</th>
+                        <th class="txt">unlikely</th>
+                        <th class="txt">Neutral</th>
+                        <th class="txt">Likely</th>
+                        <th class="txt">very likley</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Buy from us again</td>
+                    <td><input type="radio" name="radio" id=""></td>
+                    <td><input type="radio" name="radio" id=""></td>
+                    <td><input type="radio" name="radio" id=""></td>
+                    <td><input type="radio" name="radio" id=""></td>
+                    <td><input type="radio" name="radio" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Recommend our products to others</td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Recommend our company to others</td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                        <td><input type="radio" name="radio" id=""></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="comments">Additional comments or suggestions:</label>
+                    <textarea class="form-control" name="" id="comments" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit</button>
+    </div>
+    
+</body>
+</html>
